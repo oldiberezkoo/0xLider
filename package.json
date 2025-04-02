@@ -1,0 +1,23 @@
+{
+  "name": "spider",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "start": "bun run app/index.ts"
+  },
+  "dependencies": {
+    "@langchain/ollama": "^0.2.0",
+    "@types/node": "^22.13.16",
+    "fuse.js": "^7.1.0",
+    "natural": "^8.0.1",
+    "puppeteer": "^24.4.0",
+    "puppeteer-core": "^24.4.0",
+    "redis": "^4.7.0"
+  }
+}
